@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OIT || E-commerce</title>
+
+    <!--  Bootstrap cdn  -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="bootstrap.css">
+
+    <!-- OwlCarousel cdn-->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Font Awesome Icons-->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Custom CSS file -->
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="naJustTest">
+    <!-- header section starts here-->
+    <header id="header">
+        <div class="strip d-flex justify-content-between px-4 py-1 bg-light">
+            <p class="font-rale font-size-12 text-black-50">20, isolo road Mushin Lagos</p>
+            <div class="font-rale font-size-14">
+                <a href="#" class="px-3 border-right border-left text-decoration-none text-dark">Login</a>
+                <a href="#" class="px-3 border-right text-decoration-none text-dark">Wishlist(0)</a>
+            </div>
+        </div>
+
+        <!-- primary navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark color-second-bg">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">OIT</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav m-auto font-rubik">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Flash Sales</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Product <i class="fas fa-chevron-down"></i>
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#"> <img src="./assets/hp.png">HP</a></li>
+                      <li><a class="dropdown-item" href="#"><img src="./assets/dell.png"> Dell</a></li>
+                      <li><a class="dropdown-item" href="#"><img src="./assets/lenovo.png">Lenovo</a></li>
+                      <li><a class="dropdown-item" href="#"><img src="./assets/acer.png">Acer</a></li>
+                      <li><a class="dropdown-item" href="#"><img src="./assets/toshiba.png">Toshiba</a></li>
+                      <li><a class="dropdown-item" href="#"><img src="./assets/alienware.png">Alienware</a></li>
+                      <li><a class="dropdown-item" href="#"><img src="./assets/asus.png">Asus</a></li>
+                      <li><a class="dropdown-item" href="#"><img src="./assets/oraimo.png">Oraimo</a></li>
+                      <li><a class="dropdown-item" href="#"><img src="./assets/jbl.png">JBL</a></li>
+                      <li><a class="dropdown-item" href="#"><img src="./assets/samsung.png">samsung</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Apple (coming soon...)</a></li>
+                    </ul>
+                  </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Blog</a>
+                </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Category <i class="fas fa-chevron-down"></i>
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <li class="dropdown-submenu">
+                        <a class="dropdown-item" href="#"><i class="fas fa-book"></i>Education <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#"><i class="fas fa-laptop"></i>Laptops</a></li>
+                          <li><a class="dropdown-item" href="#"><i class="fas fa-desktop"></i>Desktops</a></li>
+                          <li><a class="dropdown-item" href="#"><i class="fas fa-plug"></i>Gadgets</a></li>
+                          <li><a class="dropdown-item" href="#"><i class="fas fa-tools"></i>Accesories</a></li>
+                        </ul>
+                      </li>
+                      <li class="dropdown-submenu">
+                        <a class="dropdown-item pr-2" href="#"><i class="fas fa-briefcase"></i>Work <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#"><i class="fas fa-laptop"></i>Laptops</a></li>
+                          <li><a class="dropdown-item" href="#"><i class="fas fa-desktop"></i>Desktops</a></li>
+                          <li><a class="dropdown-item" href="#"><i class="fas fa-plug"></i>Gadgets</a></li>
+                          <li><a class="dropdown-item" href="#"><i class="fas fa-tools"></i>Accesories</a></li>
+                        </ul>
+                      </li>
+                      <li class="dropdown-submenu">
+                        <a class="dropdown-item" href="#"><i class="fas fa-camera-retro"></i>Multimedia <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#"><i class="fas fa-laptop"></i>Laptops</a></li>
+                          <li><a class="dropdown-item" href="#"><i class="fas fa-desktop"></i>Desktops</a></li>
+                          <li><a class="dropdown-item" href="#"><i class="fas fa-plug"></i>Gadgets</a></li>
+                          <li><a class="dropdown-item" href="#"><i class="fas fa-tools"></i>Accesories</a></li>
+                        </ul>
+                      </li>
+                      <li class="dropdown-submenu">
+                        <a class="dropdown-item" href="#"><i class="fas fa-pen-nib"></i>Design <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#"><i class="fas fa-laptop"></i>Laptops</a></li>
+                          <li><a class="dropdown-item" href="#"><i class="fas fa-desktop"></i>Desktops</a></li>
+                          <li><a class="dropdown-item" href="#"><i class="fas fa-plug"></i>Gadgets</a></li>
+                          <li><a class="dropdown-item" href="#"><i class="fas fa-tools"></i>Accesories</a></li>
+                        </ul>
+                      </li>
+                      <li class="dropdown-submenu">
+                        <a class="dropdown-item" href="#"><i class="fas fa-gamepad"></i>Gaming <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#"><i class="fas fa-laptop"></i>Laptops</a></li>
+                          <li><a class="dropdown-item" href="#"><i class="fas fa-desktop"></i>Desktops</a></li>
+                          <li><a class="dropdown-item" href="#"><i class="fas fa-plug"></i>Gadgets</a></li>
+                          <li><a class="dropdown-item" href="#"><i class="fas fa-tools"></i>Accesories</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success mx-3 color-yellow-bg" type="submit"><i class="fas fa-search"></i></button>
+                </form>
+              </div>
+              <form action="#" class="font-size-14 font-rale">
+                  <a href="#" class="py-3 rounded-pill color-primary-bg text-decoration-none">
+                      <span class="font-size-16 px-2 text-white"> <i class="fas fa-shopping-cart"></i></span>
+                      <span class="px-4 py-3 rounded-pill text-dark bg-light">0</span>
+                  </a>
+              </form>
+            </div>
+          </nav>
+    </header>
+    <!-- header section ends here-->
+
+    <!-- Main section starts here -->
+    <main> 
+        <!-- Owl carousel starts here -->
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./assets/LaptopBanner4.jpg" class="d-block w-100" alt="banner1">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>First slide label</h5>
+                <p>Some representative placeholder content for the first slide.</p>
+
+                <div class="slider-btn">
+                  <button class="btn btn-1">Learn more</button>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./assets/LaptopBanner3.jpg" class="d-block w-100" alt="banner2">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Second slide label</h5>
+                <p>Some representative placeholder content for the second slide.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./assets/LaptopBanner5.jpg" class="d-block w-100" alt="Banner3">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Third slide label</h5>
+                <p>Some representative placeholder content for the third slide.</p>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Category section stars here -->
+
+        <section class="category">
+          <div class="container">
+            <div class="row py-5 g-4">
+              <div class="col-md-3">
+                <div class="card">
+                  <div class="card-body">
+                    <div class="card-image">
+                      <img class="img-fluid w-70" src="./assets/undraw_education_f8ru.svg" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <div class="card">
+                  <div class="card-body">
+                    <div class="card-image">
+                      <img class="img-fluid w-70" src="./assets/undraw_education_f8ru.svg" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <div class="card">
+                  <div class="card-body">
+                    <div class="card-image">
+                      <img class="img-fluid w-70" src="./assets/undraw_education_f8ru.svg" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+
+              
+            </div>
+          </div>
+        </section>
+        <!-- Top sale starts here -->
+        <section id="General">
+          <div class="container py-5">
+            <h4 class="font-rubik font-size-20">Top Sale</h4>
+            <hr color="rebeccapurple">
+            <!-- Owl Carousel starts here-->
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="row">
+                    <div class="col-3"><img class="d-block w-100" src="./assets/laptop1.jpg" class="d-block w-100" alt="banner1"></div>
+                    <div class="col-3"><img class="d-block w-100" src="./assets/samsung1.jpg" class="d-block w-100" alt="banner1"></div>
+                    <div class="col-3"><img class="d-block w-100" src="./assets/keyboard1.jpg" class="d-block w-100" alt="banner1"></div>
+                    <div class="col-3"><img class="d-block w-100" src="./assets/laptop5.jpg" class="d-block w-100" alt="banner1"></div>
+                  </div>  
+                </div>
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="col-3"><img class="d-block w-100" src="./assets/laptop2.jpg" class="d-block w-100" alt="banner1"></div>
+                    <div class="col-3"><img class="d-block w-100" src="./assets/desktop1.jpg" class="d-block w-100" alt="banner1"></div>
+                    <div class="col-3"><img class="d-block w-100" src="./assets/oraimo1.jpg" class="d-block w-100" alt="banner1"></div>
+                    <div class="col-3"><img class="d-block w-100" src="./assets/desktop2.jpg" class="d-block w-100" alt="banner1"></div>
+                  </div>  
+                </div>
+                <div class="carousel-item ">
+                  <div class="row">
+                    <div class="col-3"><img class="d-block w-100" src="./assets/oraimo2.jpg" class="d-block w-100" alt="banner1"></div>
+                    <div class="col-3"><img class="d-block w-100" src="./assets/speaker2.jpg" class="d-block w-100" alt="banner1"></div>
+                    <div class="col-3"><img class="d-block w-100" src="./assets/laptop4.jpg" class="d-block w-100" alt="banner1"></div>
+                    <div class="col-3"><img class="d-block w-100" src="./assets/keyboard3.jpg" class="d-block w-100" alt="banner1"></div>
+                  </div>  
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+            </div>
+          </div>
+        </div>
+            <!-- Owl carousel ends here-->
+          </div>
+        </section>
+        <!-- Top sale ends here -->
+        <section id="general">
+          <div class="container">
+            <h4 class="font-rubik font-size-20">General</h4>
+            <hr>
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="row">
+                    <div class="card col-3"><img class="d-block w-100" src="./assets/laptop2.jpg" class="d-block w-100" alt="banner1">
+                    <h3>HP Laptop</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                    <h5>$30.00</h5>
+                    <button class="btn">Add to cart</button>
+                    </div>
+                    <div class="card col-3"><img class="d-block w-100" src="./assets/desktop2.jpg" class="d-block w-100" alt="banner1">
+                      <h3>HP Laptop</h3>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                      <h5>$30.00</h5>
+                      <button class="btn">Add to cart</button>
+                    </div>
+                    <div class="col-3"><img class="d-block w-100" src="./assets/speaker1.jpg" class="d-block w-100" alt="banner1">
+                      <h3>HP Laptop</h3>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                      <h5>$30.00</h5>
+                      <button class="btn">Add to cart</button>
+                    </div>
+                    <div class="col-3"><img class="d-block w-100" src="./assets/printer1.jpg" class="d-block w-100" alt="banner1">
+                      <h3>HP Laptop</h3>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                      <h5>$30.00</h5>
+                      <button class="btn">Add to cart</button>
+                    </div>
+                    <div class="col-3"><img class="d-block w-100" src="./assets/oraimo1.jpg" class="d-block w-100" alt="banner1">
+                      <h3>HP Laptop</h3>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                      <h5>$30.00</h5>
+                      <button class="btn">Add to cart</button>
+                    </div>
+                    <div class="col-3"><img class="d-block w-100" src="./assets/speaker2.jpg" class="d-block w-100" alt="banner1">
+                      <h3>HP Laptop</h3>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                      <h5>$30.00</h5>
+                      <button class="btn">Add to cart</button>
+                    </div>
+                    <div class="col-3"><img class="d-block w-100" src="./assets/keyboard2.jpg" class="d-block w-100" alt="banner1"></div>
+                    <div class="col-3"><img class="d-block w-100" src="./assets/oraimo2.jpg" class="d-block w-100" alt="banner1"></div>
+                    <div class="col-3"><img class="d-block w-100" src="./assets/keyboard3.jpg" class="d-block w-100" alt="banner1"></div>
+                    <div class="col-3"><img class="d-block w-100" src="./assets/desktop1.jpg" class="d-block w-100" alt="banner1"></div>
+                    <div class="col-3"><img class="d-block w-100" src="./assets/laptop5.jpg" class="d-block w-100" alt="banner1"></div>
+                    <div class="col-3"><img class="d-block w-100" src="./assets/printer2.jpg" class="d-block w-100" alt="banner1"></div>
+                  </div>  
+                </div>
+                
+                </div>
+              </div>
+            </div>
+           
+            </div>
+          </div>
+        </div>
+            <!-- Owl carousel ends here-->
+          </div>
+        </section>
+        <!-- General section starts here -->
+
+        
+        <!-- General section ends here -->
+        </main>
+
+    <!-- Main section ends here -->
+ 
+    <!-- Footer section starts here -->
+    <footer>
+
+    </footer>
+    <!-- Footer section ends here -->
+
+  </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+<!-- OwlCarousel Js file-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+<!-- Jquery link -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- Custom Js file-->
+<script src="./index.js"></script>
+</body>
+</html>
