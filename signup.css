@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+aside{
+    background-color: rebeccapurple;
+    width: 400px;
+    height: 100vh;
+}
